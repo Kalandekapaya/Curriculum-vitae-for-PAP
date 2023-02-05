@@ -6009,7 +6009,7 @@ body {
 		min-width: 0;
 	}
 	#Wrapper {
-		max-width: 300px;
+		max-width: 500px;
 	}
 	.mobile-wide #Wrapper {
 		max-width: 92%;
@@ -6023,7 +6023,7 @@ body {
 		margin: 0 auto !important;
 	}
 	.section_wrapper, .container, .four.columns {
-		max-width: 260px !important;
+		max-width: 370px !important;
 	}
 	.mobile-wide .section_wrapper, .mobile-wide .container, .mobile-wide .four.columns {
 		max-width: 90% !important;
@@ -6906,10 +6906,10 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#Wrapper {
-		max-width: 420px;
+		max-width: 620px;
 	}
 	.section_wrapper, .container, .four.columns {
-		max-width: 380px !important;
+		max-width: 580px !important;
 	}
 	.with_aside .content_wrapper {
 		max-width: 100%;
