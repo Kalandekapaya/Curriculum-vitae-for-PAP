@@ -6906,10 +6906,10 @@ body {
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#Wrapper {
-		max-width: 620px;
+		max-width: 390px;
 	}
 	.section_wrapper, .container, .four.columns {
-		max-width: 740px !important;
+		max-width: 450px !important;
 	}
 	.with_aside .content_wrapper {
 		max-width: 100%;
@@ -7062,17 +7062,17 @@ body {
 	}
 	/* Respond */
 	#respond .comment-form-author {
-		width: 99%;
+		width: 95%;
 		margin-right: 0%;
 		float: none;
 	}
 	#respond .comment-form-email {
-		width: 99%;
+		width: 95%;
 		margin-right: 0%;
 		float: none;
 	}
 	#respond .comment-form-url {
-		width: 99%;
+		width: 95%;
 		float: none;
 	}
 	#respond input[type="text"], #respond input[type="password"], #respond input[type="email"], #respond select {

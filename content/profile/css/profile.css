@@ -3836,7 +3836,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 	width: 16.66%;
 }
 .section_wrapper .portfolio_wrapper .column.one.pager_wrapper .hover-desc {
-	margin: 5px 0 !important;
+	margin: 40px 0 !important;
 }
 .template-slider .section-portfolio-header {
 	margin-top: 30px;
@@ -5738,7 +5738,7 @@ h6 {
 		max-width: 1040px;
 	}
 	.section_wrapper, .container, .with_aside .content_wrapper {
-		max-width: 1225px;
+		max-width: 1235px;
 	}
 	.layout-boxed.header-boxed #Top_bar.is-sticky {
 		max-width: 1040px;
