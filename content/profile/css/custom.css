@@ -1,3 +1,37 @@
 .post-item{
     justify-content: center;
 }
+.rev_slider.fullwidthabanner {
+  /*
+    background: url("/content/profile/images/srollerH.jpg") repeat-x;
+   background-size:contain;
+   width:100%;
+   height:100px;
+   display: inline-block;
+   position: absolute;
+   animation: 5s scroll infinite linear;
+ }
+ @keyframes scroll {
+   0% {background-position:-10%;}
+   100% {background-position:100%;}
+ }
+ */
+
+ width: 100vw;
+height: 100vh;
+  text-align:center;
+background: url(https://i.ibb.co/9pkg2CK/scroller-min2.png) repeat-x;
+-webkit-animation: backgroundScroll 999999s linear infinite;
+animation: backgroundScroll 999999s linear infinite; /* Adjust timing here according to speed required */
+  position:fixed;
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -99999999px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -99999999px 0;}
+}
