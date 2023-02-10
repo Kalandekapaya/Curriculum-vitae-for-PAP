@@ -20,7 +20,7 @@
  width: 100vw;
 height: 100vh;
   text-align:center;
-background: url(https://i.ibb.co/9pkg2CK/scroller-min2.png) repeat-x;
+background: url(https://i.ibb.co/CBc16wR/scroller-final-min.png) repeat-x;
 -webkit-animation: backgroundScroll 999999s linear infinite;
 animation: backgroundScroll 999999s linear infinite; /* Adjust timing here according to speed required */
   position:fixed;
