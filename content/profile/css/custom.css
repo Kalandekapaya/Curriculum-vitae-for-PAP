@@ -35,6 +35,13 @@ to {background-position: -99999999px 0;}
 from {background-position: 0 0;}
 to {background-position: -99999999px 0;}
 }
+.custom-btn a{
+  color: #fff;
+}
+.custom-btn a:hover{
+  color: #b05200;
+  text-decoration: none;
+}
 
 .custom-btn {
   
@@ -63,7 +70,7 @@ to {background-position: -99999999px 0;}
 
 /* 7 */
 .btn-7 {
-  background: linear-gradient(0deg, rgb(176, 82, 0) 0%, rgb(255, 125, 32) 100%);
+  background: linear-gradient(0deg, #b05200 0%, rgb(255, 125, 32) 100%);
    
     padding: 0;
     border: none;
@@ -94,6 +101,7 @@ to {background-position: -99999999px 0;}
   .btn-7:hover{
     color: rgb(182, 55, 0);
     background: transparent;
+    border-radius: 5px;
   }
   .btn-7:hover:before {
     height: 100%;
@@ -101,8 +109,8 @@ to {background-position: -99999999px 0;}
   .btn-7:hover:after {
     width: 100%;
   }
-  .btn-7 span:before,
-  .btn-7 span:after {
+  .btn-7 a:before,
+  .btn-7 a:after {
     position: absolute;
     content: "";
     left: 0;
